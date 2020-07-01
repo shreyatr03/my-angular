@@ -1,7 +1,20 @@
 .about {
-  height: 150px;
   border: 1px solid dodgerblue;
+  border-radius: 10px;
+  height: 150px;
   padding: 10px;
-    border-radius: 15px;
+
+}
+
+.profile-pic {
+  border: 3px solid dodgerblue;
+  border-radius: 50%;
+  height:120px;
+
+}
+
+.contact {
+  color: white;
+  height: 150px;
 
 }
