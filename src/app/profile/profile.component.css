@@ -1,28 +1,13 @@
-.about {
-  border: 1px solid dodgerblue;
-}
-
-.profile-con {
-  text-align: center;
-  display: block;
-}
 
 .profile-pic {
   border: 3px solid dodgerblue;
   border-radius: 50%;
-  width:200px;
-
+  width: 200px;
 }
 
-.contact {
+h3 {
   color: white;
-  top: 0;
-  position: fixed;
-  min-width: 400px;
-
 }
-
-br {
-  line-height: 5%;
-  content: "";
+h4 {
+  color: grey;
 }
