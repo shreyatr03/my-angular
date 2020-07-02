@@ -11,3 +11,10 @@ h3 {
 h4 {
   color: grey;
 }
+
+.profile {
+
+  padding: 10px;
+  border-radius: 15px;
+  border: 3px solid dodgerblue;
+}
