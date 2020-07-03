@@ -1,15 +1,18 @@
 
 .profile-pic {
-  border: 3px solid dodgerblue;
+  border: 2px solid darkgreen;
   border-radius: 50%;
   width: 200px;
+  height: 200px;
+  margin-left: 15px;
+  margin-top: 5px;
 }
 
 h3 {
   color: white;
 }
 h4 {
-  color: grey;
+  color: #808080;
 }
 
 .profile {
@@ -17,4 +20,9 @@ h4 {
   padding: 10px;
   border-radius: 15px;
   border: 3px solid dodgerblue;
+}
+
+.img-container {
+  display: block;
+  text-align: center;
 }

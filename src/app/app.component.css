@@ -1,0 +1,17 @@
+@media only screen and (min-width: 950px) {
+  .col-xs-8 {
+    left:350px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .col-xs-8 {
+
+    right:0px;
+  }
+}
+
+.col-xs-4 {
+  width: 350px;
+
+}

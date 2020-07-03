@@ -1,19 +1,11 @@
-.sidenav {
-  height: 70%;
-  width: 500px;
-  position: fixed;
-  z-index: 1;
-  bottom: 0;
-  right: 0;
+.navbar{
   background-color: black;
-  overflow-x: hidden;
-  padding-top: 20px;
+  opacity:0.8;
+  width:100%;
+  border-bottom: 1px solid grey;
 }
 
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: black;
-  display: block;
+.navbar-nav.navbar-right li a {
+    color: dodgerblue;
+    font-size: 17px;
 }
