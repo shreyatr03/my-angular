@@ -3,6 +3,7 @@
   opacity:0.8;
   width:100%;
   border-bottom: 1px solid grey;
+  background-color: #202020;
 }
 
 .navbar-nav.navbar-right li a {
