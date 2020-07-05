@@ -7,10 +7,10 @@ import { SketchesComponent } from './sketches/sketches.component';
 
 //This is my case
 const routes: Routes = [
-    { path: '', component: AboutComponent},
-    { path: '\skills', component: SkillsComponent},
-    { path: '\projects', component: ProjectsComponent},
-    { path: '\sketches', component: SketchesComponent}
+    { path: '\my-angular', component: AboutComponent},
+    { path: '\my-angular/skills', component: SkillsComponent},
+    { path: '\my-angular/projects', component: ProjectsComponent},
+    { path: '\my-angular/sketches', component: SketchesComponent}
 ];
 
 @NgModule({
