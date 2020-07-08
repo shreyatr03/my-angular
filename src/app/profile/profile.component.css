@@ -1,6 +1,6 @@
 
 .profile-pic {
-  border: 2px solid darkgreen;
+  border: 3px solid dodgerblue;
   border-radius: 50%;
   width: 200px;
   height: 200px;
@@ -21,10 +21,14 @@ h4 {
   border-radius: 15px;
   border: 3px solid dodgerblue;
   margin-top: 5px;
+
 }
 
 .img-container {
   display: block;
   text-align: center;
 
+}
+.fa-envelope {
+  font-size:20px;
 }

@@ -21,7 +21,7 @@ import { SketchesComponent } from './sketches/sketches.component';
     AboutComponent,
     SkillsComponent,
     ProjectsComponent,
-    SketchesComponent,
+    SketchesComponent
   ],
   imports: [
     BrowserModule,
