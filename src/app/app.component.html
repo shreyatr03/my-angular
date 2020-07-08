@@ -6,11 +6,26 @@
   </div>
 
   <div class="col-xs-8 header">
-      <app-header></app-header>
+    <header>
+  <section>
+    <h1>hi</h1>
+  </section>
+  <nav>
+    <ul>
+      <li><a routerLink="/">about</a></li>
+      <li><a routerLink="/skills">About</a></li>
+      <li><a routerLink="/projects">Contact</a></li>
+      <li><a routerLink="/sketches">Signin</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+    <router-outlet></router-outlet>
+  </main>
   </div>
 
   <div class="col-xs-8 content" style="">
-      <router-outlet></router-outlet>
+
   </div>
 
 </div>
