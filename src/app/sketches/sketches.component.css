@@ -1,1 +1,26 @@
-img {  margin: auto; }
+img {
+  margin: auto;
+}
+@media only screen and (min-width: 750px) {
+  .carousel-inner {
+    height:350px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .carousel-inner {
+     height:300px;
+  }
+}
+.carousel {
+  min-width:300px;
+  background-image: url("/assets/img/bg.jpg");
+  border:3px solid #333333;
+  text-align:center;
+  display:block;
+  border-radius:10px;
+}
+
+.img-responsive {
+  max-height:350px;
+}

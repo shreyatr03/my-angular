@@ -5,13 +5,14 @@ import { AboutComponent } from './about/about.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { SketchesComponent } from './sketches/sketches.component';
+import { HobbiesComponent } from './hobbies/hobbies.component';
 
-//This is my case
 const routes: Routes = [
     { path: '', component: AboutComponent},
     { path: 'skills', component: SkillsComponent},
     { path: 'projects', component: ProjectsComponent},
-    { path: 'sketches', component: SketchesComponent}
+    { path: 'sketches', component: SketchesComponent},
+    { path: 'hobbies', component: HobbiesComponent}
 ];
 
 @NgModule({

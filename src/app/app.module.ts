@@ -9,6 +9,7 @@ import { AboutComponent } from './about/about.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { SketchesComponent } from './sketches/sketches.component';
+import { HobbiesComponent } from './hobbies/hobbies.component';
 
 
 
@@ -21,7 +22,8 @@ import { SketchesComponent } from './sketches/sketches.component';
     AboutComponent,
     SkillsComponent,
     ProjectsComponent,
-    SketchesComponent
+    SketchesComponent,
+    HobbiesComponent
   ],
   imports: [
     BrowserModule,
