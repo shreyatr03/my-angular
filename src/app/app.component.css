@@ -28,7 +28,7 @@
   .scrollbar {
     position:fixed;
     left:350px;
-    right:50px;
+    right:20px;
     top:90px;
     height:500px;
   }

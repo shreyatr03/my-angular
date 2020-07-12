@@ -6,10 +6,11 @@
 .card {
   padding: 0px;
   text-align: center;
-  background-color: black;
+  background-color: #202020;
   min-width: 300px;
   max-width:350px;
-  border:2px solid #909090;
+  border:1px solid white;
+  background-image: url("/assets/img/bg.png");
   margin:15px;
   border-radius: 10px;
 }
@@ -21,4 +22,15 @@
 .img-responsive {
   border-radius: 10px;
   height: 200px;
+  filter: brightness(80%);
+  padding: 3px;
+}
+
+.fluid-container {
+  color:lightblue;
+  font-size: 15px;
+  padding: 5px;
+  align-items: left;
+  line-height:1.6;
+  font-family: "Comic Sans MS", sans-serif;
 }
