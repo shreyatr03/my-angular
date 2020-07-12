@@ -1,15 +1,21 @@
 img {
   margin: auto;
 }
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 800px) {
   .carousel-inner {
-    height:350px;
+    height:440px;
+  }
+  .img-responsive {
+    height:440px;
   }
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 800px) {
   .carousel-inner {
      height:300px;
+  }
+  .img-responsive {
+    height:300px;
   }
 }
 .carousel {
@@ -19,8 +25,4 @@ img {
   text-align:center;
   display:block;
   border-radius:10px;
-}
-
-.img-responsive {
-  max-height:350px;
 }

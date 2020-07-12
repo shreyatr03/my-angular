@@ -16,16 +16,79 @@
 
 .col-xs-4 {
   width: 350px;
-
 }
-@media only screen and (min-width: 750px) {
+
+@media only screen and (min-width: 700px) {
   .content {
     position:fixed;
     left:350px;
-    right:0px;
+    right:50px;
     top:90px;
   }
+  .scrollbar {
+    position:fixed;
+    left:350px;
+    right:50px;
+    top:90px;
+    height:500px;
+  }
+}
+
+@media only screen and (max-width: 699px) {
+  .scrollbar {
+    display:contents;
+  }
+  .scrollbar-primary {
+    display:contents;
+  }
+  .force-overflow {
+    display:contents;
+  }
+
+}
+.header {
+  z-index:1;
 }
 .content {
   min-width:350px;
+  left:0;
+}
+
+.scrollbar {
+margin-left: 0px;
+float: left;
+background: black;
+overflow-y: scroll;
+}
+
+.force-overflow {
+margin-right:30px;
+margin-left:0px;
+}
+
+.scrollbar-primary::-webkit-scrollbar {
+width: 7px;
+background-color: #c0c0c0;
+border-radius: 10px;
+}
+
+.scrollbar-primary::-webkit-scrollbar-thumb {
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: #4285F4;
+ }
+
+.scrollbar-primary {
+scrollbar-color: #4285F4 #F5F5F5;
+}
+
+.skill {
+  position:fixed;
+  color:dodgerblue;
+  background-color:grey;
+  font-family:cursive;
+  width:200px;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
 }

@@ -2,7 +2,9 @@
 <div class="fluid-container" Style="position:relative;">
 
   <div class="col-xs-4">
+    <section id="profile">
       <app-profile></app-profile>
+    </section>
   </div>
 
   <div class="col-xs-8 header">
@@ -10,7 +12,43 @@
   </div>
 
   <div class="col-xs-8 content">
-    
-      <router-outlet></router-outlet>
+
+    <div class="scrollbar scrollbar-primary">
+      <div class="force-overflow">
+
+        <!--<router-outlet></router-outlet>-->
+
+        <section id="about">
+          <app-about></app-about>
+        </section>
+
+        <br><br>
+
+        <section id="skills">
+          <app-skills></app-skills>
+        </section>
+
+        <br><br>
+
+        <section id="projects">
+          <app-projects></app-projects>
+        </section>
+
+        <br><br>
+
+        <section id="hobbies">
+          <app-hobbies></app-hobbies>
+        </section>
+
+        <br>
+
+        <section id="sketches">
+          <app-sketches></app-sketches>
+        </section>
+        <br>
+
+      </div>
+    </div>
+
   </div>
 </div>

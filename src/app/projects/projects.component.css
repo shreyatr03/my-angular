@@ -1,0 +1,24 @@
+.column {
+  padding:10px;
+  float:right;
+}
+
+.card {
+  padding: 0px;
+  text-align: center;
+  background-color: black;
+  min-width: 300px;
+  max-width:350px;
+  border:2px solid #909090;
+  margin:15px;
+  border-radius: 10px;
+}
+
+.flex-container {
+  margin-left:30px;
+}
+
+.img-responsive {
+  border-radius: 10px;
+  height: 200px;
+}

@@ -1,8 +1,8 @@
-<div class="flex-container">
+<div class="flex-container" id="topheader">
 <nav class="navbar navbar-expand-md navbar-dark">
 
 
-    <a class="navbar-brand" style="color:pink;font-size:20px;font-family:cursive;">My Profile</a>
+    <a class="navbar-brand comic" style="color:pink;font-size:23px;">My Profile</a>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
@@ -11,20 +11,20 @@
 
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav navbar-right">
-      <li class="active nav-item">
-        <a class="nav-link" routerLink="/">About Me</a>
+      <li class="active nav-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+        <a class="nav-link" href="#about">About Me</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLink="/skills">Skills</a>
+        <a class="nav-link" href="#skills">Skills</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLink="/projects">Projects</a>
+        <a class="nav-link" href="#projects">Projects</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLink="/hobbies">Hobbies</a>
+        <a class="nav-link" href="#hobbies">Hobbies</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLink="/sketches">Sketches</a>
+        <a class="nav-link" href="#sketches">Sketches</a>
       </li>
     </ul>
   </div>

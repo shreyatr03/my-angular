@@ -34,7 +34,7 @@ overflow-y: scroll;
   }
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 699px) {
   .scrollbar {
     width: 290px;
     height: 300px;
